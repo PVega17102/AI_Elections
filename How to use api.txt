@@ -1,0 +1,85 @@
+Para utilizar tienes que hacer lo siguiente 
+
+Instalar Visual Studio Code:
+Si aún no tienes instalado Visual Studio Code, puedes descargarlo e instalarlo desde el sitio web oficial: https://code.visualstudio.com/
+
+Crear un nuevo proyecto en VS Code:
+Abre VS Code y crea un nuevo proyecto. Puedes crear una carpeta para tu proyecto y luego abrir esa carpeta en VS Code.
+
+
+Instalar las librerías necesarias:
+Para ejecutar tu API de Flask en VS Code, necesitas asegurarte de tener instaladas las librerías necesarias. Las principales librerías que necesitas son Flask y Flask-RESTful. Puedes instalarlas utilizando el siguiente comando en la terminal de VS Code:
+
+Antes de empezar recuerda tambien instalar las siguientes librerias pip install scikit-learn
+pip install pandas, pip install flask
+
+pip install Flask Flask-RESTful
+
+Configurar el entorno virtual (opcional):
+Si prefieres trabajar con un entorno virtual para tu proyecto (lo cual es recomendable), puedes crearlo en VS Code. Para ello, sigue los siguientes pasos:
+
+Abre la terminal de VS Code.
+Instala la herramienta virtualenv (si aún no lo tienes) con el siguiente comando:
+
+
+pip install virtualenv
+
+Luego, crea un nuevo entorno virtual en la raíz de tu proyecto con el siguiente comando:
+
+virtualenv venv
+
+Activa el entorno virtual con el siguiente comando:
+
+
+source venv/bin/activate
+Ejecutar el API:
+Una vez que hayas instalado las librerías y configurado el entorno virtual (si lo deseas), puedes ejecutar el API desde la terminal de VS Code. Para ello, asegúrate de estar en el directorio donde se encuentra el archivo "api.py" y ejecuta el siguiente comando:
+
+
+python api.py
+
+recuerda que para calarlo en postman se tiene que ingresar a esta url: http://localhost:5000/api/v1/estado/7 al final donde viene el 7 es para cambiar el número del estado que queremos revisar
+
+=========================================================================================================
+
+To use you have to do the following
+
+Install Visual Studio Code:
+If you don't already have Visual Studio Code installed, you can download and install it from the official website: https://code.visualstudio.com/
+
+Create a new project in VS Code:
+Open VS Code and create a new project. You can create a folder for your project and then open that folder in VS Code.
+
+Copy the Flask API code:
+Copy all the Flask API code you have in Colab and paste it into a new file in your VS Code project. You can name this file as "app.py".
+
+Install the necessary libraries:
+To run your Flask API in VS Code, you need to make sure you have the necessary libraries installed. The main libraries you need are Flask and Flask-RESTful. You can install them using the following command in the VS Code terminal:
+
+
+pip install Flask Flask-RESTful
+
+Configure the virtual environment (optional):
+If you prefer to work with a virtual environment for your project (which is recommended), you can create it in VS Code. To do this, follow the steps below:
+
+Open the VS Code terminal.
+Install the virtualenv tool (if you don't already have it) with the following command:
+
+
+pip install virtualenv
+
+Then, create a new virtual environment at the root of your project with the following command:
+
+virtualenv venv
+
+Activate the virtual environment with the following command:
+
+
+source venv/bin/activate
+Run the API:
+Once you've installed the libraries and set up the virtual environment (if desired), you can run the API from the VS Code terminal. To do this, make sure you are in the directory where the "api.py" file is located and run the following command:
+
+
+python api.py
+
+remember that to set it up in postman you have to enter this url: http://localhost:5000/api/v1/estado/7 at the end where the 7 comes is to change the number of the state that we want to check
