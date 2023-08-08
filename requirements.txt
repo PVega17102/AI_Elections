@@ -1,0 +1,5 @@
+pip install scikit-learn
+pip install pandas
+pip install flask
+pip install Flask Flask-RESTful
+pip install virtualenv
